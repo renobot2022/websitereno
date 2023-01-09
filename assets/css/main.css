@@ -418,7 +418,8 @@ a.boxed-btn {
   display: inline-block;
   background-color: #F28123;
   color: #fff;
-  padding: 10px 20px;
+  padding: 12px 30px;
+  font-size: 17px;
 }
 
 a.bordered-btn {
@@ -563,10 +564,11 @@ nav.main-menu ul li {
 }
 
 nav.main-menu ul li a {
-  color: #070707;
+  color: #0B81FF;
   font-weight: 700;
   display: block;
   padding: 15px;
+  padding-top: 30px;
 }
 
 nav.main-menu ul > li {
@@ -1403,7 +1405,7 @@ a.mobile-show.search-bar-icon:hover {
 
 ----------------------------------------------------------------------------- */
 .hero-bg {
-  background-image: url(../img/hero-bg.jpg);
+  background-image: url(../img/kudus3.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1441,11 +1443,12 @@ html, body {
 }
 
 .hero-text p.text-uppercase {
-  color: #F28123;
+  color: #00e600;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 15px;
+  margin-top: 150px;
 }
 
 .hero-text h2 {
@@ -1454,7 +1457,7 @@ html, body {
   line-height: 1.3;
   color: #fff;
   margin: 0;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .hero-area div {
@@ -2167,7 +2170,7 @@ a.video-play-btn {
   background-image: url(../img/homepage-bg-pattern.png);
   background-size: cover;
   padding: 10px 0px 20px;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 
 .shop-banner h3 {
@@ -2509,7 +2512,7 @@ ul.social-link-team li a {
 
 .product-image {
   padding: 30px;
-  padding-bottom: 0;
+  padding-bottom: 0px;
 }
 
 .product-image img {
@@ -2820,9 +2823,37 @@ table.order-details tbody td {
 
 .single-product-item {
   -webkit-box-shadow: 0 0 20px #e4e4e4;
-  box-shadow: 0 0 20px #e4e4e4;
+  box-shadow: 0 0 20px #9F6C14;
+  padding-bottom: 80px;
+  border-radius: 10px;
+}
+
+.single-product-item1 {
+  -webkit-box-shadow: 0 0 20px #e4e4e4;
+  box-shadow: 0 0 20px #85FF9A;
   padding-bottom: 50px;
-  border-radius: 5px;
+  border-radius: 35px;
+}
+
+.single-product-item1 h4 {
+  font-size: 16px;
+  font-weight: 650;
+  margin-bottom: 10px;
+}
+
+.single-product-item1 {
+  margin-bottom: 30px;
+}
+
+.single-product-item1 {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.single-product-item1:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 /* -----------------------------------------------------------------------------
